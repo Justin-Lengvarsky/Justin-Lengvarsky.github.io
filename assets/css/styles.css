@@ -130,6 +130,8 @@ a.dotted-link:hover {
 
 .header .profile-image {
   margin-right: 30px;
+  max-height: 180px;
+  max-width: 190px;
 }
 
 .header .profile-content .name {
