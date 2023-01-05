@@ -1,385 +1,209 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Justin Lengvarsky's Portfolio</title>
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Justin Lengvarsky Portfolio">
-    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
-    <link rel="shortcut icon" href="favicon.ico">  
-    
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
-    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
-    
-    <!-- FontAwesome JS -->
-    <script defer src="assets/fontawesome/js/all.js"></script>
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Hyperspace by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-    <!-- GitHub Graph -->
-    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-    
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">  
-    
-    <!-- github calendar css -->
-    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar-responsive.css">
-    <!-- github activity css -->  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">  
-    <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#one">Who we are</a></li>
+							<li><a href="#two">What we do</a></li>
+							<li><a href="#three">Get in touch</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
 
-    <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-    
-</head> 
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-<body>
-    <!-- ******HEADER****** --> 
-    <header class="header">
-        <div class="container">     
-	        <div class="row align-items-center">
-			    <div class="col">         
-		            <img class="profile-image img-fluid float-start rounded-circle" src="assets/Me.jpg" alt="profile image" />
-		            <div class="profile-content">
-		                <h1 class="name">Justin Lengvarsky</h1>
-		                <h2 class="desc">Fullstack Software Engineer</h2>   
-		                <ul class="social list-inline">
-		                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/justin-lengvarsky/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-		                    <li class="list-inline-item"><a href="https://github.com/Justin-Lengvarsky" target="_blank"><i class="fab fa-github-alt"></i></a></li>     
-		                    <li class="list-inline-item last-item"><a href="https://codepen.io/lengvarskyj" target="_blank"><i class="fab fa-codepen"></i></a></li>                
-		                </ul> 
-		            </div><!--//profile-->
-			    </div><!--//col-->
-	            <div class="col-12 col-md-auto">
-		            <div class="dark-mode-switch d-flex">
-						<div class="form-check form-switch mx-auto mx-md-0">
-							<input type="checkbox" class="form-check-input me-2" id="darkSwitch" />
-							<label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>Hyperspace</h1>
+							<p>Just another fine responsive site template designed by <a href="http://html5up.net">HTML5 UP</a><br />
+							and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
+							<ul class="actions">
+								<li><a href="#one" class="button scrolly">Learn more</a></li>
+							</ul>
 						</div>
-			        </div><!--//dark-mode-switch-->
-	                <a class="btn btn-cta-primary" href="mailto:justin.lengvarsky@gmail.com" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>        
-	            </div><!--//col-->
-	        </div><!--//row-->         
-        </div><!--//container-->
-    </header><!--//header-->
-    
-    <div class="container sections-wrapper py-5">
-        <div class="row">
-            <div class="primary col-lg-8 col-12">
-                <section class="about section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">About Me</h2>
-                        <div class="content">
-                            <p>Hi, I'm Justin. I'm a web developer and I build great looking websites and web applications for people. I have experience with HTML/CSS/JavaScript, Bootstrap, React.js and Wordpress. Feel free to reach out and we will work on a solution to accomplish your goals!</p>
-                         
-                        </div><!--//content-->
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-    
-               <section class="latest section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Latest Projects</h2>
-                        <div class="content">    
-                            <br>
-                                               
-                            <div class="item featured text-center">
-                                
-                           <div class="featured-image has-ribbon">
-                                    <a href="https://stylo.cyclic.app" target="_blank">
-                                    <img class="img-fluid project-image rounded shadow-sm" src="https://res.cloudinary.com/duf8g2rbv/image/upload/v1666207197/stylo-front_stl0kk.jpg" alt="Stylo" />
-                                    </a>
-                                    <div class="ribbon">
-                                        <div class="text">New</div>
-                                    </div>
-                                </div>
-                                
-                                <h3 class="title mb-3"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/launch-bootstrap-4-template-for-saas-businesses/" target="_blank">Stylo - The Ultimate Styling Tool for the Workplace</a></h3>
-                                    
-                                <div class="desc text-start">                                    
-                                    <p>Fullstack web application that allows users to log on to their own account, create business professional/casual outfits and save them for future reference. Comes equiped with local authentication and guest access.</p>
-                                </div>       
-                                <a class="btn btn-cta-secondary" href="https://github.com/Justin-Lengvarsky/Outfit-Generator" target="_blank">View Repository</a>              
-                           </div> 
+					</section>
 
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Sed ipsum dolor</h2>
+									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<ul class="actions">
+										<li><a href="generic.html" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Feugiat consequat</h2>
+									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<ul class="actions">
+										<li><a href="generic.html" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Ultricies aliquam</h2>
+									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<ul class="actions">
+										<li><a href="generic.html" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
 
+				<!-- Two -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>What we do</h2>
+							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<div class="features">
+								<section>
+									<span class="icon solid major fa-code"></span>
+									<h3>Lorem ipsum amet</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-lock"></span>
+									<h3>Aliquam sed nullam</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-cog"></span>
+									<h3>Sed erat ullam corper</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-desktop"></span>
+									<h3>Veroeros quis lorem</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-link"></span>
+									<h3>Urna quis bibendum</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section>
+								<section>
+									<span class="icon major fa-gem"></span>
+									<h3>Aliquam urna dapibus</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section>
+							</div>
+							<ul class="actions">
+								<li><a href="generic.html" class="button">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
 
-                           
-                             <hr class="divider" /> 
+				<!-- Three -->
+					<section id="three" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Get in touch</h2>
+							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<div class="split style1">
+								<section>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" />
+											</div>
+											<div class="field half">
+												<label for="email">Email</label>
+												<input type="text" name="email" id="email" />
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" rows="5"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><a href="" class="button submit">Send Message</a></li>
+										</ul>
+									</form>
+								</section>
+								<section>
+									<ul class="contact">
+										<li>
+											<h3>Address</h3>
+											<span>12345 Somewhere Road #654<br />
+											Nashville, TN 00000-0000<br />
+											USA</span>
+										</li>
+										<li>
+											<h3>Email</h3>
+											<a href="#">user@untitled.tld</a>
+										</li>
+										<li>
+											<h3>Phone</h3>
+											<span>(000) 000-0000</span>
+										</li>
+										<li>
+											<h3>Social</h3>
+											<ul class="icons">
+												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
 
-                            <div class="item row">
-                                <a class="col-md-4 col-12" href="https://book-manager.cyclic.app" target="_blank">
-                                <img class="img-fluid project-image rounded shadow-sm" src="https://res.cloudinary.com/duf8g2rbv/image/upload/v1656465128/Screen_Shot_2022-06-28_at_9.10.01_PM_gbx4ha.png" alt="Booki" />
-                                </a>
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="https://book-manager.cyclic.app" target="_blank">Booki</a></h3>
-                                    <p class="mb-2">
-                                        CRUD application that allows users to create and maintain books that they have read. Provides a nice interface to remind readers of their favorite quotes.</p>
-                                    <p><a class="more-link" href="https://github.com/Justin-Lengvarsky/Book-Manager" target="_blank"><i class="fas fa-external-link-alt"></i>View Repository</a></p>
-                                </div><!--//desc-->                          
-                            </div><!--//item-->
-                     
-                            <div class="item row">
-                                <a class="col-md-4 col-12" href="http://hubspot-developers-wz43ci-21079035.hs-sites.com/duality" target="_blank">
-                                <img class="img-fluid project-image rounded shadow-sm" src="https://res.cloudinary.com/duf8g2rbv/image/upload/v1644717586/Screen_Shot_2022-02-12_at_7.57.04_PM_lacofr.png" alt="project name" />
-                                </a>
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="http://hubspot-developers-wz43ci-21079035.hs-sites.com/duality" target="_blank">Duality (HubSpot Themes 2021 Hackathon)</a></h3>
-                                    <p class="mb-2">Duality is a collection of landing pages/support pages for Hubspot's CMS marketplace. Each page allows users to swap elements, change text and add new elements. I created everything except for the Three.js orb on the front page.</p>
-                                    <p><a class="more-link" href="https://github.com/Justin-Lengvarsky/Duality" target="_blank"><i class="fas fa-external-link-alt"></i>View Repository</a></p>
-                                    <p><a class="more-link" href="https://youtu.be/YzVp0PwcNuQ" target="_blank"><i class="fas fa-external-link-alt"></i>View CMS Functionality</a></p>
-                                </div><!--//desc-->                          
-                            </div><!--//item-->
+			</div>
 
-                            <div class="item row">
-                                <a class="col-md-4 col-12" href="https://dungeons-and-dragons-generator.netlify.app" target="_blank">
-                                <img class="img-fluid project-image rounded shadow-sm" src="https://res.cloudinary.com/duf8g2rbv/image/upload/v1652834835/Screen_Shot_2022-05-17_at_8.44.47_PM_pd6ayl.png" alt="DnD App" />
-                                </a>
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="https://dungeons-and-dragons-generator.netlify.app" target="_blank">Dungeons and Dragons Generator</a></h3>
-                                    <p class="mb-2">Retrives data on several elements of Dungeons and Dragons 5th Edition, including character classes, dangerous monsters and usable spells.</p>
-                                    <p><a class="more-link" href="https://github.com/Justin-Lengvarsky/Dungeons-and-Dragons-Generator" target="_blank"><i class="fas fa-external-link-alt"></i>View Repository</a></p>
-                                </div><!--//desc-->                          
-                            </div><!--//item-->
-                     
-                            <div class="item row">
-                                <a class="col-md-4 col-12" href="https://valley-barbershop.com" target="_blank">
-                                <img class="img-fluid project-image rounded shadow-sm" src="https://res.cloudinary.com/duf8g2rbv/image/upload/v1648045665/Screen_Shot_2022-03-23_at_10.27.23_AM_olv3p1.png" alt="project name" />
-                                </a>
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="https://valley-barbershop.com" target="_blank">Valley Barber Shop</a></h3>
-                                    <p class="mb-2">Live website for Valley Barber Shop in Tariffville, CT.</p>
-                                    <p><a class="more-link" href="https://valley-barbershop.com" target="_blank"><i class="fas fa-external-link-alt"></i>View Site</a></p>
-                                </div><!--//desc-->                          
-                            </div><!--//item-->
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
 
-                            <div class="item row">
-                                <a class="col-md-4 col-12" href="https://quincys-guitars.com" target="_blank">
-                                <img class="img-fluid project-image rounded shadow-sm" src="https://res.cloudinary.com/duf8g2rbv/image/upload/v1666709160/quincy-home_y8kmvk.png" alt="project name" />
-                                </a>
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="https://quincys-guitars.com" target="_blank">Quincy's Guitars</a></h3>
-                                    <p class="mb-2">Live website for Quincy's Guitars in Troy, NY.</p>
-                                    <p><a class="more-link" href="https://quincys-guitars.com" target="_blank"><i class="fas fa-external-link-alt"></i>View Site</a></p>
-                                </div><!--//desc-->                          
-                            </div><!--//item-->
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-                            <div class="item row">
-                                <a class="col-md-4 col-12" href="https://floridajustice.s2.48in48.org" target="_blank">
-                                <img class="img-fluid project-image rounded shadow-sm" src="https://res.cloudinary.com/duf8g2rbv/image/upload/v1666711039/fljc-home_urjat8.png" alt="FLJC Website Image" />
-                                </a>
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="https://floridajustice.s2.48in48.org" target="_blank">Florida Justice Center</a></h3>
-                                    <p class="mb-2">Live website for Florida Justice Center in Oakland Park, FL. Worked with international team for 48in48's Global Volunteer Event. Implemented components and plugins using Wordpress, and shaped keyword rich content that achieves site goals and fits page designs.</p>
-                                    <p><a class="more-link" href="https://floridajustice.s2.48in48.org" target="_blank"><i class="fas fa-external-link-alt"></i>View Site</a></p>
-                                </div><!--//desc-->                          
-                            </div><!--//item-->
-                            
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                
-                </section><!--//section-->
-                
-                <!-- <section class="projects section"> 
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">My Resume</h2> -->
-			    <!-- IMAGE https://res.cloudinary.com/duf8g2rbv/image/upload/v1639444928/Screen_Shot_2021-12-13_at_8.21.11_PM_rgpvzh.png -->
-                        <!-- <div class="content">
-                            <div class="item">
-                                <h3 class="title"><a href="https://docs.google.com/document/d/1-72-kfezfVbCwhQFkh2augReT8K4e0eF/edit" target="_blank">Justin Lengvarsky Resume.docx</a></h3>
-                                <p class="summary"></p> -->
-                            <!--    <p><a class="more-link" href="https://docs.google.com/document/d/1-72-kfezfVbCwhQFkh2augReT8K4e0eF/edit" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p> -->
-                            <!-- </div> //item -->
-             <!--               <div class="item">
-                                <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/speciality/devblog-free-bootstrap-4-blog-template-for-developers/" target="_blank">DevBlog - Free Boootstrap Blog Template for Developers</a> <span class="badge badge-theme">Free</span></h3>
-                                <p class="summary">Provide a brief description of your project. Maecenas ornare ultricies risus, in fermentum augue consectetur in. Vestibulum vitae mauris iaculis, sollicitudin velit in, molestie nulla. </p>
-                                <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/speciality/devblog-free-bootstrap-4-blog-template-for-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
-                            </div> //item-->
-             <!--               <div class="item">
-                                <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/nova-bootstrap-landing-page-template-for-mobile-apps/" target="_blank">Nova - Free App Landing Page Template for App Developers</a> <span class="badge badge-theme">Free</span></h3>
-                                <p class="summary">Provide a brief description of your project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel purus enim. Etiam tortor felis, fermentum ac ultrices sed.</p>
-                                <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/nova-bootstrap-landing-page-template-for-mobile-apps/" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
-                            </div> //item 
-                            
-                           <a class="btn btn-cta-secondary" href="#">More on GitHub <i class="fas fa-chevron-right pt-1"></i></a> -->
-                            
-                        <!-- </div> //content   -->
-                    <!-- </div> //section-inner                  -->
-                <!-- </section> //section -->
-                
-            <!--  <section class="experience section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Work Experience</h2>
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title">Associate Underwriter in Training - <span class="place"><a href="#">Business Risk Partners</a></span> <span class="year">(2021 - Present)</span></h3>
-                                <p>In December of 2020, I started as a data entry assistant and was promoted to an Underwriter Assistant position in May 2021. Later that month I was selected to be in a development program designed to prepare me for an underwriting position. I have primarily worked in Cyber Security Underwriting is what started my interest in Web App Development. </p>
-                            </div><!--//item-->
-                       <!--      <div class="item">
-                                <h3 class="title">Human Resources/Operations Intern - <span class="place"><a href="#">Stubben Edge Group Limited</a></span> <span class="year">(2021)</span></h3>
-                                <p>I recovered over 40 missing HR documents and created an online database which became accesible for the whole company to quicly gain access. I also improved the company's Holiday and Leave spreadsheet and published articles on the company's LinkedIn page. </p>
-                            </div> -->
-                            
-                         <!--    <div class="item">
-                                <h3 class="title">Camp Supervisor - <span class="place"><a href="#">YMCA</a></span> <span class="year">(2018 - 2019)</span></h3>
-                                <p>Having 3 years of experience at the YMCA as a camp counselor, I was responsible for managing over 20 counselors and supervising more than 130 campers. I supervised a 40+ hour training process for new counselors, and produced weekly agendas of activities and counselor schedules.</p>
-                            </div> -->
-                            
-                      <!--   </div>
-                    </div>              
-                </section>  -->
-            </div><!--//primary-->
-            <div class="secondary col-lg-4 col-12">
-                 <aside class="info aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Basic Information</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>West Granby, CT</li>
-                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span>justin.lengvarsky@gmail.com</li>
-                                <!-- <li><i class="fas fa-file"></i><span class="sr-only">Resume:</span><a href="https://docs.google.com/document/d/1-72-kfezfVbCwhQFkh2augReT8K4e0eF/edit">Resume.docx</a></li> -->
-                            </ul>
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </aside><!--//aside-->
-                
-                
-                <aside class="testimonials aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Testimonials</h2>
-                        <div class="content">
-                            <div class="item">
-                                <blockquote class="quote">                                  
-                                    <p><i class="fas fa-quote-left"></i>Setting up a website was quick and easy with Justin's help. Highly recommend!</p>
-                                </blockquote>                
-                                <p class="source"><span class="name">John Mazzarella</span><br /><span class="title">Valley Barber Shop</span></p>                                                             
-                            </div> 
-                            <div class="item">
-                                <blockquote class="quote">                                  
-                                    <p><i class="fas fa-quote-left"></i>Justin was great to work with. He was fast in responding to all of my questions and the website exceeded my expectations.</p>
-                                </blockquote>                
-                                <p class="source"><span class="name">Quincy McGee</span><br /><span class="title">Quincy's Guitars</span></p>                                                             
-                            </div> 
-                            
-                            <!-- <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on Linkedin</a></p> -->
-                            
-                        </div>  
-                    </div>  
-                </aside> 
-                
-                <aside class="education aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Education</h2>
-                        <div class="content">
-                            <div class="item">                      
-                                <h3 class="title"><i class="fas fa-graduation-cap"></i> BSc Business Management (Economics Minor)</h3>
-                                <h4 class="university">University of Connecticut <span class="year">(2016-2020)</span></h4>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title"><i class="fas fa-graduation-cap"></i> Education Abroad (London, U.K.)</h3>
-                                <h4 class="university">Anglo Educational Services <span class="year">(2019)</span></h4>
-                            </div><!--//item-->
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                            
-                <aside class="list music aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Favourite Albums to Code to</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fas fa-headphones"></i> <a href="https://open.spotify.com/album/3b4E89rxzZQ9zkhgKpj8N4?si=R51JdWZxSUCn9bxTuz3RzA" target='_blank'>"Animals" by Pink Floyd</a></li>
-                                <li><i class="fas fa-headphones"></i> <a href="https://open.spotify.com/album/0U8DeqqKDgIhIiWOdqiQXE?si=DpKJS3T4RIOCofK5a8SIZg" target='_blank'>"Carrie & Lowell" by Sufjan Stevens</a></li>
-                                <li><i class="fas fa-headphones"></i> <a href="https://open.spotify.com/album/22ZgHorVJzcZ4m8YBZCw4w?si=V7MTvjjdQ4KlyjmB6-sWQw" target='_blank'>"Future Days" by Can</a></li>
-                                <li><i class="fas fa-headphones"></i> <a href="https://open.spotify.com/album/4FR8Z6TvIsC56NLyNomNRE?si=1QG2B6RVTEWoGPM-NVpgbw" target='_blank'>"Stop Making Sense" by Talking Heads</a></li>
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-
-                <!-- 
-                
-                <aside class="blog aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Latest Blog Posts</h2>
-                        <p>You can use Sascha Depold's <a href="https://github.com/sdepold/jquery-rss" target="_blank">Vanilla RSS plugin</a> to pull in your blog post feeds.</p>
-                        <div id="rss-feeds" class="content">
-
-                        </div>  //content-->
-                  <!--//  </div> section-inner-->
-                <!--// </aside> section--> 
-
-                <!-- 
-                
-                <aside class="list conferences aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Conferences</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="far fa-calendar-alt"></i> <a href="#" target="_blank">WWDC 2030</a> (San Francisco)</li>
-                                <li><i class="far fa-calendar-alt"></i> <a href="#">Hive</a> (Seattle)</li>
-                            </ul>
-                        </div> //content-->
-             <!--       </div>  //section-inner-->
-             <!--   </aside>  //section-->  
-                
-             <!--   <aside class="credits aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Credits</h2>
-                        <div class="content">
-                            <ul class="list-unstyled pb-2">
-                                <li><a href="https://getbootstrap.com/" target="_blank"><i class="fas fa-external-link-alt"></i>Bootstrap</a></li>
-                                <li><a href="https://fortawesome.github.io/Font-Awesome/" target="_blank"><i class="fas fa-external-link-alt"></i>FontAwesome</a></li>
-                                <li><a href="https://github.com/IonicaBizau/github-calendar" target="_blank"><i class="fas fa-external-link-alt"></i>GitHub Calendar Plugin</a></li>
-                                
-                                <li><a href="https://caseyscarborough.com/projects/github-activity/" target="_blank"><i class="fas fa-external-link-alt"></i>GitHub Activity Stream</a></li>
-                                
-                                <li><a href="https://github.com/sdepold/vanilla-rss" target="_blank"><i class="fas fa-external-link-alt"></i>Vanilla RSS</a></li>
-                                <li><a href="https://github.com/coliff/dark-mode-switch"><i class="fas fa-external-link-alt"></i>Dark Mode Switch</a></li>
-                                
-                            </ul>
-                            
-                            <hr/>
-                            
-                             <p class="pt-2">This Boootstrap portfolio template is handcrafted by UX designer <a href="https://twitter.com/3rdwave_themes" target="_blank">Xiaoying Riley</a> at <a href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a> for developers and is <strong>FREE</strong> as long as you keep the footer attribution link.</p>
-                             <p>If you’d like to <strong>use this template without the attribution link</strong>, you can <a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-portfolio-theme-for-web-developers/" target="_blank">buy the commercial license</a>.</p>
-                             
-                             <a class="btn btn-cta-primary btn-download" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-portfolio-theme-for-web-developers/" target="_blank"><i class="fas fa-download"></i> I want to download</a>
-                            <hr/>
-                            <h5 class="subheading pt-3">Want more free Bootstrap themes and templates?</h5>
-                            <p>Check out our <a href="https://themes.3rdwavemedia.com/bootstrap-templates/free/">collection of free themes and templates.</a></p>
-                            <p>Follow <a href="https://twitter.com/3rdwave_themes" target="_blank">Xiaoying</a> on twitter so you don't miss any future freebies!</p> 
-                            
-                            <a class="btn btn-cta-secondary btn-follow" href="https://twitter.com/3rdwave_themes" target="_blank"><i class="fab fa-twitter"></i> Follow on twitter</a>
-                            
-                        </div>   //content-->
-         <!--           </div>  //section-inner-->
-       <!--         </aside>  //section--> 
-              
-            </div> <!--//secondary-->    
-        </div> <!--//row--> 
-  </div> <!--//masonry --> 
-     
-    <!-- ******FOOTER****** -->  
-    <footer class="footer">
-        <div class="container text-center">
-                <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
-                <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-        </div><!--//container-->
-    </footer><!--//footer-->  
-
-    <!-- Javascript -->          
-    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
-    <script type="text/javascript" src="assets/plugins/vanilla-rss/dist/rss.global.min.js"></script> 
-    <script type="text/javascript" src="assets/plugins/dark-mode-switch/dark-mode-switch.min.js"></script> 
-    <!-- github calendar plugin -->
-    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
-    <!-- github activity plugin -->
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
-    <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>            
-</body>
-</html> 
-
-
+	</body>
+</html>
